@@ -23,5 +23,9 @@ namespace VolaitDatabaseConnectionApi.Models
 			this.TelefoneCliente = TelefoneCliente_;
 			this.SenhaCliente = SenhaCliente_;
 		}
-	}
+
+        public Cliente()
+        {
+        }
+    }
 }
