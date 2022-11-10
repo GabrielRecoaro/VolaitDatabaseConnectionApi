@@ -7,14 +7,14 @@ namespace VolaitDatabaseConnectionApi.Models
 {
 	public class Cliente
 	{
-		public int CPFCliente { get; set; }
+		public long CPFCliente { get; set; }
 		public string NomeCliente { get; set; }
 		public string NomeSocialCliente { get; set; }
 		public string LoginCliente { get; set; }
 		public string TelefoneCliente { get; set; }
 		public string SenhaCliente { get; set; }
 
-		public Cliente(int CPFCliente_, string NomeCliente_, string NomeSocialCliente_, string LoginCliente_, string TelefoneCliente_, string SenhaCliente_)
+		public Cliente(long CPFCliente_, string NomeCliente_, string NomeSocialCliente_, string LoginCliente_, string TelefoneCliente_, string SenhaCliente_)
 		{
 			this.CPFCliente = CPFCliente_;
 			this.NomeCliente = NomeCliente_;
